@@ -1,0 +1,43 @@
+body{
+  border-top: 3px solid black;
+}
+
+#logo{
+  width: 120px;
+}
+.header{
+  background-color: #FFC422;
+  height: 650px;
+}
+
+.header a{
+  color: black;
+  text-align: right;
+}
+
+h2{
+  text-align: center;
+  font-family: arial;
+  font-weight: 700;
+  font-family: "Raleway",Helvetica,Arial;
+  font-size: 32px;
+  margin-top: 0px;
+}
+
+p{
+  text-align: center;
+  font-family: georgia;
+}
+
+.icon{
+  height: 65px;
+  padding: 40px;
+}
+
+.services,
+.about{
+  text-align: center;
+  background-color: #FAFAFA;
+  height: 400px;
+  padding-top: 4px;
+}
