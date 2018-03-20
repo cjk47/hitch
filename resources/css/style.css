@@ -1,32 +1,104 @@
-body{
-  border-top: 3px solid black;
-}
+/****** Universal Styles ******/
 
-#logo{
-  width: 120px;
-}
-.header{
-  background-color: #FFC422;
-  height: 650px;
-}
-
-.header a{
-  color: black;
-  text-align: right;
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
 }
 
 h2{
   text-align: center;
-  font-family: arial;
   font-weight: 700;
   font-family: "Raleway",Helvetica,Arial;
-  font-size: 32px;
-  margin-top: 0px;
 }
 
 p{
-  text-align: center;
   font-family: georgia;
+}
+
+a {
+  color: black;
+}
+
+span{
+  text-align: center;
+  padding-top: 10px;
+}
+
+.section-header{
+  text-align: center;
+}
+
+/****** Header ******/
+
+header{
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 80px;
+  background-color: #FFC422;
+  border-top: 3px solid black;
+}
+
+.logo{
+  display: flex;
+  margin-left: 10px;
+}
+
+header nav{
+  text-align: right;
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+nav a{
+  padding: 20px 7px;
+}
+
+/****** Banner ******/
+
+#banner{
+  height: 550px;
+  background-color: #FFC422;
+}
+
+/****** Process ******/
+
+#process{
+  width: 100%;
+  padding-top: 25px;
+  margin-bottom: 25px;
+}
+
+.step-one{
+  text-align: left;
+  width: 55%;
+}
+
+.step-two{
+  text-align: right;
+  margin-left: 55%;
+}
+
+.step-three{
+  text-align: left;
+  width: 55%;
+}
+
+/****** Services ******/
+#services{
+  background-color: #fafafa;
+  padding-top: 25px;
+}
+
+.services-icons{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .icon{
@@ -34,10 +106,34 @@ p{
   padding: 40px;
 }
 
-.services,
-.about{
+#services,
+.about,
+{
   text-align: center;
   background-color: #FAFAFA;
   height: 400px;
   padding-top: 4px;
+}
+
+#about{
+  text-align: center;
+  background-color: #fafafa;
+  height: 300px;
+  padding-top: 25px;
+}
+
+#clients{
+  height: 200px;
+  padding-top: 25px;
+}
+
+#contact{
+  height: 200px;
+  padding-top: 25px;
+}
+
+
+footer{
+  height: 75px;
+  background-color: #fafafa;
 }
